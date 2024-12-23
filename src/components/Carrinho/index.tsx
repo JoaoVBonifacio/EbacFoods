@@ -64,7 +64,9 @@ const Carrinho = () => {
                     <ProdutoImagem src={item.foto} alt={item.nome} />
                     <ProdutoInfo>
                       <ProdutoNome>{item.nome}</ProdutoNome>
-                      <ProdutoPreco>R$ {item.preco.toFixed(2)}</ProdutoPreco>
+                      <ProdutoPreco>
+                        R$ {item.preco.toFixed(2).replace('.', ',')}
+                      </ProdutoPreco>
                     </ProdutoInfo>
                     <IconeLixeira
                       src={lixeira}
@@ -77,7 +79,7 @@ const Carrinho = () => {
             </ProdutoLista>
             <Total>
               <p>Valor Total</p>
-              <p>R$ {total.toFixed(2)}</p>
+              <p>R$ {total.toFixed(2).replace('.', ',')}</p>
             </Total>
             <BotaoContinuar onClick={() => dispatch(iniciarCheckout())}>
               Continuar com a entrega

@@ -152,7 +152,8 @@ const Perfil = () => {
               <p>{pratoSelecionado.descricao}</p>
               <p>Serve: {pratoSelecionado.porcao}</p>
               <AddButton onClick={() => handleAddToCart(pratoSelecionado)}>
-                Adicionar ao carrinho - R$ {pratoSelecionado.preco.toFixed(2)}
+                Adicionar ao carrinho - R${' '}
+                {pratoSelecionado.preco.toFixed(2).replace('.', ',')}
               </AddButton>
             </div>
           </ModalContent>
