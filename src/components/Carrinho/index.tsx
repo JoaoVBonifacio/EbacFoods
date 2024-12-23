@@ -53,7 +53,6 @@ const Carrinho = () => {
       <Overlay onClick={handleCloseCart} />
       <CarrinhoContainer>
         <BarraLateral>
-          (
           <>
             <ProdutoLista>
               {items.length === 0 ? (
@@ -85,7 +84,6 @@ const Carrinho = () => {
               Continuar com a entrega
             </BotaoContinuar>
           </>
-          )
         </BarraLateral>
       </CarrinhoContainer>
     </>
