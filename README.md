@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# 🍽️ Efood - World Cuisine Delivery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive food delivery platform, built with:
 
-## Available Scripts
+- ⚛️ React + TypeScript
+- ⚡ Vite for fast bundling
+- 🎨 Styled Components for custom UI
+- 🧹 ESLint + Prettier for clean code
+- 🚀 Hosting via Vercel
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## 🌐 Access the live page: [Efood](https://rnt-efood.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Tech Stack
 
-### `npm test`
+**React** – Library for building user interfaces.
+**TypeScript** – Superset of JavaScript that adds static typing.
+**Vite** – Next-generation bundler for rapid development.
+**Styled Components** – CSS-in-JS for modular and reusable styling.
+**Redux** – State management for cart and delivery flow.
+**ESLint & Prettier** – Tools for linting and code formatting.
+**Vercel** – Hosting platform for front-end projects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## ✅ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive design for all devices
+- Explore restaurants by country and cuisine
+- Add dishes to cart and complete delivery flow
+- Social links and project info in the footer
+- Clean, organized, and scalable codebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📚 References
 
-### `npm run eject`
+- [⚛️ React](https://react.dev/)
+- [📘 TypeScript](https://www.typescriptlang.org/)
+- [⚡ Vite](https://vitejs.dev/)
+- [▲ Vercel](https://vercel.com/)
+- [🧑‍🍳 Styled Components](https://styled-components.com/)
+- [🛒 Redux](https://redux.js.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👤 Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Made with 💙 by [Renato Minoita](https://www.linkedin.com/in/renato-luiz-0b072b247/)
+Check out more on [GitHub](https://github.com/RNT13)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
