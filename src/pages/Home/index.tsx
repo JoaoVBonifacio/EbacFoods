@@ -13,7 +13,7 @@ const Home = () => {
     const fetchRestaurantes = async () => {
       try {
         const response = await axios.get(
-          'https://fake-api-tau.vercel.app/api/efood/restaurantes'
+          'https://ebac-fake-api.vercel.app/api/efood/restaurantes'
         )
 
         setRestaurantes(
